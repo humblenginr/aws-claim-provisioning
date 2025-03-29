@@ -14,9 +14,9 @@ import (
 )
 
 const (
-	region          = "us-east-1" // Change to your AWS region
+	region          = "us-east-1"
 	templateName    = "testing_template"
-	serialNumber    = "testing_serial" // Change to your desired device serial number (this should be the unique identifier for the device. We can use MAC address + a time seeded random sequence of characters
+	serialNumber    = "testing_serial" // Change to the device serial number (this should be the unique identifier for the device. We can use MAC address + a time seeded random sequence of characters
 	certificateFile = "device_cert.pem"
 	privateKeyFile  = "device_key.pem"
 	rootCAFile      = "root_ca.pem" // AWS Root certificate file
